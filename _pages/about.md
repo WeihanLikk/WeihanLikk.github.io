@@ -46,7 +46,7 @@ Chengrui Li, Yule Wang, **Weihan Li**, Anqi Wu\
 [Efficient Point-Process Modeling of Spiking Neurons for Neuroprosthesis](https://ieeexplore.ieee.org/document/9630019)\
 **Weihan Li**^, CunLe Qian^, Yu Qi, Yiwen Wang, Yueming Wang, Gang Pan\
 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (**EMBC 2021**)\
-^These authors contributed to the work equllly.
+^These authors contributed to the work equally.
 
 
 ## Activities
