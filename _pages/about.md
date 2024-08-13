@@ -41,7 +41,7 @@ Chengrui Li, **Weihan Li**, Yule Wang, Anqi Wu\
 Chengrui Li, Yule Wang, **Weihan Li**, Anqi Wu\
 *12th International Conference on Learning Representations* (<span style="color:#11a079">**ICLR 2024**</span>)
 
-<span style="color:#b6763a">**Online neural sequence detection with hierarchical dirichlet point process**</span>\
+<span style="color:#b6763a">**Online Neural Sequence Detection with Hierarchical Dirichlet Point Process**</span>\
 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2c3b636b64ca1dfdae3e096e4deeaa42-Abstract-Conference.html) [[Code]](https://github.com/WeihanLikk/Hierarchical-Dirichlet-Point-Process)\
 **Weihan Li**, Yu Qi, Gang Pan\
 *36th Annual Conference on Neural Information Processing Systems* (<span style="color:#11a079">**NeurIPS 2022**</span>)
