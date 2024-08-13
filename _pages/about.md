@@ -39,7 +39,7 @@ Chengrui Li, **Weihan Li**, Yule Wang, Anqi Wu\
 <span style="color:#b6763a">**Forward $\chi^2$ Divergence Based Variational Importance Sampling**</span>\
 [[Paper]](https://arxiv.org/abs/2311.02516) [[Code]](https://github.com/JerrySoybean/vis)\
 Chengrui Li, Yule Wang, **Weihan Li**, Anqi Wu\
-*12th International Conference on Learning Representations* (<span style="color:#11a079">**ICLR 2024**</span>)
+*12th International Conference on Learning Representations* (<span style="color:#11a079">**ICLR 2024**</span> <span style="color:#ee5a5a">Spotight</span>)
 
 <span style="color:#b6763a">**Online Neural Sequence Detection with Hierarchical Dirichlet Point Process**</span>\
 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2c3b636b64ca1dfdae3e096e4deeaa42-Abstract-Conference.html) [[Code]](https://github.com/WeihanLikk/Hierarchical-Dirichlet-Point-Process)\
