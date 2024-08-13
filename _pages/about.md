@@ -9,7 +9,7 @@ redirect_from:
 
 I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/). I belong to Prof. [Anqi Wu](https://sites.google.com/view/brainml/home)'s group. Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en).
 
-I am open to possible cooperation or visiting opportunities. Further, I am always happy to collaborate with other students. If you are interested, feel free to contact me by [email](weihanli@gatech.edu).
+I am open to possible cooperation or visiting opportunities. Further, I am always happy to collaborate with other students. If you are interested, feel free to contact me by [email](mailto:weihanli@gatech.edu).
 
 ## Research interests
 
@@ -44,7 +44,7 @@ Chengrui Li, Yule Wang, **Weihan Li**, Anqi Wu\
 <span style="color:#b6763a">**Online neural sequence detection with hierarchical dirichlet point process**</span>\
 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2c3b636b64ca1dfdae3e096e4deeaa42-Abstract-Conference.html) [[Code]](https://github.com/WeihanLikk/Hierarchical-Dirichlet-Point-Process)\
 **Weihan Li**, Yu Qi, Gang Pan\
-*36th Annual Conference on Neural Information Processing Systems* (<span style="color:#11a079">**Neurips 2022**</span>)
+*36th Annual Conference on Neural Information Processing Systems* (<span style="color:#11a079">**NeurIPS 2022**</span>)
 
 <span style="color:#b6763a">**Efficient Point-Process Modeling of Spiking Neurons for Neuroprosthesis**</span>\
 [[Paper]](https://ieeexplore.ieee.org/document/9630019)\
