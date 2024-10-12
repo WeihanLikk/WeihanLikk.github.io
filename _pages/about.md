@@ -26,6 +26,10 @@ You can also find my publications on my [Google Scholar](https://scholar.google.
 **Weihan Li**, Yule Wang, Chengrui Li, Anqi Wu \
 *Preprint*
 
+<span style="color:#b6763a">**Exploring Behavior-Relevant and Disentangled Neural Dynamics with Generative Diffusion Models**</span>\
+Yule Wang, Chengrui Li, **Weihan Li**, Anqi Wu\
+*38th Annual Conference on Neural Information Processing Systems* (<span style="color:#11a079">**NeurIPS 2024**</span>)
+
 <span style="color:#b6763a">**Multi-Region Markovian Gaussian Process: An Efficient Method to Discover Directional Communications Across Multiple Brain Regions**</span>\
 [[Paper]](https://arxiv.org/abs/2402.02686) [[Code]](https://github.com/WeihanLikk/MRM-GP)\
 **Weihan Li**, Chengrui Li, Yule Wang, Anqi Wu\
