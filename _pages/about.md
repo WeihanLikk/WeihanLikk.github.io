@@ -27,6 +27,7 @@ You can also find my publications on my [Google Scholar](https://scholar.google.
 *Preprint*
 
 <span style="color:#b6763a">**Exploring Behavior-Relevant and Disentangled Neural Dynamics with Generative Diffusion Models**</span>\
+[[Paper]](https://arxiv.org/abs/2410.09614)\
 Yule Wang, Chengrui Li, **Weihan Li**, Anqi Wu\
 *38th Annual Conference on Neural Information Processing Systems* (<span style="color:#11a079">**NeurIPS 2024**</span>)
 
