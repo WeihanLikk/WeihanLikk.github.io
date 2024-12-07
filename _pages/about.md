@@ -13,7 +13,7 @@ I am open to possible cooperation or visiting opportunities. Further, I am alway
 
 ## Research interests
 
-My research focuses on AI for Neuroscience.
+My research focuses on Efficient Long Sequence Data Modeling, Generative Models, and AI for Neuroscience.
 
 - Foundation models, State Space models, Diffusion models, Probabilistic models, Probabilistic inference
 
