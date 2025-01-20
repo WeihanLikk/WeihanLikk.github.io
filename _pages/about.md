@@ -13,7 +13,7 @@ I am open to possible cooperation or visiting opportunities. Further, I am alway
 
 ## Research interests
 
-Efficient Long Sequence Modeling, Generative Models, and AI for Neuroscience.
+LLM Post-Training, Efficient Long Sequence Modeling, Generative Models, and AI for Neuroscience.
 
 - Foundation models, State Space models, Diffusion models, Probabilistic models, Probabilistic inference
 
