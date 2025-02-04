@@ -21,7 +21,7 @@ LLM Post-Training, Efficient Long Sequence Modeling, Generative Models, and AI f
 
 You can also find my publications on my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AAAAJ&hl=zh-CN&oi=ao) profile.
 
-<span style="color:#b6763a">**Markovian Gaussian Process: A Universal State-Space Representation for Stationary Temporal Gaussian Process**</span>\
+<span style="color:#b6763a">**Learning Time-Varying Multi-Region Communications via Scalable Markovian Gaussian Processes**</span>\
 [[Paper]](https://arxiv.org/abs/2407.00397) \
 **Weihan Li**, Yule Wang, Chengrui Li, Anqi Wu \
 *Preprint*
