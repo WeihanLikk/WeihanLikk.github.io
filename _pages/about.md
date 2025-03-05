@@ -13,9 +13,11 @@ I am open to possible cooperation or visiting opportunities. Further, I am alway
 
 ## Research interests
 
-LLM Post-Training, Efficient Long Sequence Modeling, Generative Models, and AI for Neuroscience.
+My research focuses on developing advanced methods for modeling large-scale neural data to address fundamental problems in neuroscience. Additionally, I am interested in the intersection of reinforcement learning and the evaluation of large language models (LLMs).
 
-- Foundation models, State Space models, Diffusion models, Probabilistic models, Probabilistic inference
+**Methodologies**: State-space models, Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
+
+**Applications**: Computational NNeuroscience, LLM Alignment, and Reasoning
 
 ## Publications
 
