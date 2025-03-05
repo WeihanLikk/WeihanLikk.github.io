@@ -9,15 +9,13 @@ redirect_from:
 
 I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/). I belong to Prof. [Anqi Wu](https://sites.google.com/view/brainml/home)'s group. Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en).
 
-I am open to possible cooperation or visiting opportunities. Further, I am always happy to collaborate with other students. If you are interested, feel free to contact me by [email](mailto:weihanli@gatech.edu).
-
 ## Research interests
 
-My research focuses on developing advanced methods for modeling large-scale neural data to address fundamental problems in neuroscience. Additionally, I am interested in the intersection of reinforcement learning and the evaluation of large language models (LLMs).
+My research focuses on developing advanced methods for modeling large-scale neural data to address fundamental problems in neuroscience. Additionally, I am interested in the intersection of reinforcement learning and LLMs.
 
 **Methodologies**: State-space models, Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
 
-**Applications**: Computational NNeuroscience, LLM Alignment, and Reasoning
+**Applications**: Computational Neuroscience, LLM Alignment, and Reasoning
 
 ## Publications
 
