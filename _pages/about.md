@@ -25,7 +25,7 @@ You can also find my publications on my [Google Scholar](https://scholar.google.
 <span style="color:#b6763a">**Learning Time-Varying Multi-Region Communications via Scalable Markovian Gaussian Processes**</span>\
 [[Paper]](https://arxiv.org/abs/2407.00397) \
 **Weihan Li**, Yule Wang, Chengrui Li, Anqi Wu \
-*Preprint*
+*42th International Conference on Machine Learning* (<span style="color:#11a079">**ICML 2025**</span> <span style="color:#ee5a5a">**Spotlight**</span>)
 
 <span style="color:#b6763a">**Exploring Behavior-Relevant and Disentangled Neural Dynamics with Generative Diffusion Models**</span>\
 [[Paper]](https://arxiv.org/abs/2410.09614)\
