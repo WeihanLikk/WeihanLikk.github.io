@@ -12,11 +12,11 @@ I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gate
 
 ## Research interests
 
-My research focuses on developing advanced methods for modeling large-scale neural (behavioral) data to address fundamental problems in neuroscience.
+My research centers on developing advanced methodologies for modeling large-scale neural and behavioral data to address core questions in neuroscience.
 
-**Methodologies**: State-space models, Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
+**Methodologies**: State-space models, Multimodal Large Language Models (LLMs), Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
 
-**Applications**: Computational Neuroscience, LLM Reasoning
+**Applications**: Computational Neuroscience, Multimodal modeling of human and animal behavior, LLM Post-training and inference
 
 ## Publications
 
