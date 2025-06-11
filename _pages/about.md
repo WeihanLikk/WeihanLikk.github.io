@@ -22,7 +22,7 @@ My research centers on developing advanced methodologies for modeling large-scal
 
 You can also find my publications on my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AAAAJ&hl=zh-CN&oi=ao) profile.
 
-<span style="color:#b6763a">**Learning Time-Varying Multi-Region Communications via Scalable Markovian Gaussian Processes**</span>\
+<span style="color:#b6763a">**Learning Time-Varying Multi-Region Brain Communications via Scalable Markovian Gaussian Processes**</span>\
 [[Paper]](https://arxiv.org/abs/2407.00397) \
 **Weihan Li**, Yule Wang, Chengrui Li, Anqi Wu \
 *42th International Conference on Machine Learning* (<span style="color:#11a079">**ICML 2025**</span> <span style="color:#ee5a5a">**Oral**</span>)
