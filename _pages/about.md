@@ -14,16 +14,16 @@ I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gate
 
 My research centers on developing advanced methodologies for modeling large-scale neural and behavioral data to address core questions in neuroscience.
 
-**Methodologies**: State-space models, Multimodal Large Language Models (LLMs), Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
+**Methodologies**: State-space models, Multimodal Large Language Models, Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
 
-**Applications**: Computational Neuroscience, Multimodal modeling of human and animal behavior, LLM Post-training and inference
+**Applications**: Computational Neuroscience, Multimodal modeling of human and animal behavior
 
 ## Publications
 
 You can also find my publications on my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AAAAJ&hl=zh-CN&oi=ao) profile.
 
 <span style="color:#b6763a">**Learning Time-Varying Multi-Region Brain Communications via Scalable Markovian Gaussian Processes**</span>\
-[[Paper]](https://arxiv.org/abs/2407.00397) \
+[[Paper]](https://openreview.net/pdf?id=pOAEfqa26i) \
 **Weihan Li**, Yule Wang, Chengrui Li, Anqi Wu \
 *42th International Conference on Machine Learning* (<span style="color:#11a079">**ICML 2025**</span> <span style="color:#ee5a5a">**Oral**</span>)
 
