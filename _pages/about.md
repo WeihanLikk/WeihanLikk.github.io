@@ -7,18 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/). I belong to Prof. [Anqi Wu](https://sites.google.com/view/brainml/home)'s group. Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en). 
-<!-- My resume is [here](https://weihanlikk.github.io/assets/cv_weihan.pdf). -->
-
-📄 My resume is available [here](https://weihanlikk.github.io/assets/cv_weihan.pdf). Please check it for my most recent research projects.
+I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/). I belong to Prof. [Anqi Wu](https://sites.google.com/view/brainml/home)'s group. Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en). My resume is available [here](https://weihanlikk.github.io/assets/cv_weihan.pdf). 
 
 ## Research interests
 
-My research centers on developing advanced methodologies for modeling large-scale neural and behavioral data to address core questions in neuroscience.
+My research develops advanced machine learning methods for modeling large-scale multimodal data, with applications in neuroscience and animal behavior understanding. I focus on multimodal large language/vision models, state-space modeling, and generative modeling.
 
 **Methodologies**: State-space models, Multimodal Large Language Models, Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
 
-**Applications**: Computational Neuroscience, Multimodal modeling of human and animal behavior
+**Applications**: Multimodal modeling of human and animal behavior, Computational Neuroscience
 
 ## Publications
 
