@@ -10,6 +10,8 @@ redirect_from:
 I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/). I belong to Prof. [Anqi Wu](https://sites.google.com/view/brainml/home)'s group. Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en). 
 <!-- My resume is [here](https://weihanlikk.github.io/assets/cv_weihan.pdf). -->
 
+📄 My resume is available [here](https://weihanlikk.github.io/assets/cv_weihan.pdf). Please check it for my most recent research projects.
+
 ## Research interests
 
 My research centers on developing advanced methodologies for modeling large-scale neural and behavioral data to address core questions in neuroscience.
