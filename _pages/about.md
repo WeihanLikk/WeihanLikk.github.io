@@ -43,6 +43,23 @@ See also my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AA
 </div>
 
 <div class="pub">
+  <div class="pub__venue">NeurIPS 2026<span class="pub__award">Spotlight</span></div>
+  <div class="pub__body">
+    <div class="pub__title">MICE: Multi-animal Interaction Context Encoder — A Hierarchical Foundation Model for Mouse Behavior</div>
+    <div class="pub__authors">Yen-Shuo Su, <b>Weihan Li</b>, Anqi Wu</div>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub__venue">NeurIPS 2026</div>
+  <div class="pub__body">
+    <div class="pub__title">QDMouse4M: A Multi-View 3D Mouse Spontaneous Behavior Dataset with Quantum-Dot Markers</div>
+    <div class="pub__authors">Jingyang Ke, Amartya Pradhan, Xueling Zhang, <b>Weihan Li</b>, Anqi Wu, Jeffrey E. Markowitz</div>
+    <div class="pub__meta">Evaluations and Datasets Track</div>
+  </div>
+</div>
+
+<div class="pub">
   <div class="pub__venue">Preprint</div>
   <div class="pub__body">
     <div class="pub__title">BehaviorVLM: Unified Finetuning-Free Behavioral Understanding with Vision-Language Reasoning</div>
