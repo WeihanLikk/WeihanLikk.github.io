@@ -1,22 +1,26 @@
 # main links links
-# main:
+main:
+  # Robot Demos page is hidden for now; to open it, uncomment below and remove `published: false` in _pages/demos.md
+  # - title: "Robot Demos"
+  #   url: /demos/
+
 #   - title: "Publications"
 #     url: /publications/
 
 #   - title: "Talks"
-#     url: /talks/    
+#     url: /talks/
 
 #   - title: "Teaching"
-#     url: /teaching/    
-    
+#     url: /teaching/
+
 #   - title: "Portfolio"
 #     url: /portfolio/
-        
+
 #   - title: "Blog Posts"
 #     url: /year-archive/
-    
+
 #   - title: "CV"
 #     url: /cv/
-    
+
 #   - title: "Guide"
 #     url: /markdown/

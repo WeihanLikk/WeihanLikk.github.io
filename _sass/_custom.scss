@@ -1,0 +1,207 @@
+/* ==========================================================================
+   Custom styles: homepage sections, publication list, robot demo gallery
+   ========================================================================== */
+
+$accent-color   : #b6763a;
+$venue-color    : #11a079;
+$award-color    : #e05252;
+
+/* Homepage
+   ========================================================================== */
+
+.page__content {
+  h2 {
+    margin-top: 2em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.research-blurb {
+  margin: 0.5em 0 1em;
+  padding: 0.9em 1.1em;
+  border-left: 3px solid $accent-color;
+  background: mix(#fff, $accent-color, 93%);
+  border-radius: 0 4px 4px 0;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.interest-row {
+  margin: 0.4em 0;
+  font-size: $type-size-6 * 1.2;
+
+  .interest-label {
+    display: inline-block;
+    min-width: 6.5em;
+    font-weight: bold;
+  }
+}
+
+.tag {
+  display: inline-block;
+  margin: 0.15em 0.25em 0.15em 0;
+  padding: 0.1em 0.6em;
+  border: 1px solid $border-color;
+  border-radius: 1em;
+  background: $lighter-gray;
+  color: $dark-gray;
+  white-space: nowrap;
+
+  &--current {
+    border-color: mix(#fff, $accent-color, 50%);
+    background: mix(#fff, $accent-color, 88%);
+    color: mix(#000, $accent-color, 35%);
+  }
+}
+
+/* Publications
+   ========================================================================== */
+
+.pub-list {
+  margin-top: 1em;
+}
+
+.pub {
+  display: flex;
+  gap: 1em;
+  padding: 0.85em 0;
+  border-bottom: 1px dashed $border-color;
+  line-height: 1.45;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub__venue {
+  flex: 0 0 7.5em;
+  font-size: $type-size-6 * 1.1;
+  font-weight: bold;
+  color: $venue-color;
+
+  .pub__award {
+    display: block;
+    color: $award-color;
+  }
+}
+
+.pub__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub__title {
+  font-weight: bold;
+  color: $accent-color;
+}
+
+.pub__authors,
+.pub__meta {
+  font-size: $type-size-6 * 1.2;
+}
+
+.pub__meta {
+  color: $gray;
+  font-style: italic;
+}
+
+.pub__links {
+  margin-top: 0.2em;
+  font-size: $type-size-6 * 1.1;
+
+  a {
+    display: inline-block;
+    margin-right: 0.4em;
+    padding: 0 0.5em;
+    border: 1px solid $link-color;
+    border-radius: 3px;
+    text-decoration: none;
+
+    &:hover {
+      background: $link-color;
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .pub {
+    flex-direction: column;
+    gap: 0.2em;
+  }
+
+  .pub__venue {
+    flex-basis: auto;
+
+    .pub__award {
+      display: inline;
+      margin-left: 0.4em;
+    }
+  }
+}
+
+/* Robot demo gallery
+   ========================================================================== */
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25em;
+  margin: 1em 0 2em;
+}
+
+.demo-card {
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+
+  video,
+  iframe,
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    background: #000;
+    object-fit: contain;
+  }
+}
+
+.demo-card__placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  background: $lighter-gray;
+  color: $gray;
+  font-size: $type-size-6 * 1.2;
+}
+
+.demo-card__caption {
+  padding: 0.6em 0.85em 0.75em;
+  font-size: $type-size-6 * 1.2;
+  line-height: 1.4;
+
+  strong {
+    display: block;
+    margin-bottom: 0.15em;
+  }
+}
+
+.demo-badge {
+  display: inline-block;
+  margin-right: 0.4em;
+  padding: 0 0.45em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #fff;
+  vertical-align: 0.1em;
+
+  &--sim  { background: #3b7dd8; }
+  &--real { background: $venue-color; }
+}

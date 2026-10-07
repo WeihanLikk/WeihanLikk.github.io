@@ -7,57 +7,135 @@ redirect_from:
   - /about.html
 ---
 
-I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/). I belong to Prof. [Anqi Wu](https://sites.google.com/view/brainml/home)'s group. Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en). My resume is available [here](https://weihanlikk.github.io/assets/cv_weihan.pdf). 
+I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/), advised by Prof. [Anqi Wu](https://sites.google.com/view/brainml/home). Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en). My CV is available [here](https://weihanlikk.github.io/assets/cv_weihan.pdf).
 
-## Research interests
+## Research
 
-My research develops advanced machine learning methods for modeling large-scale multimodal data, with applications in neuroscience and animal behavior understanding. I focus on multimodal large language/vision models, state-space modeling, and generative modeling.
+<div class="research-blurb" markdown="1">
+I work on **robot learning for dexterous manipulation**: teaching multi-fingered robot hands to perform bimanual manipulation skills learned from human demonstrations, in simulation and on real hardware.
+</div>
 
-**Methodologies**: State-space models, Multimodal Large Language Models, Reinforcement Learning, Probabilistic Generative Modeling, Probabilistic Inference
+Before moving to robotics, I worked on modeling communication across multiple brain regions and on analyzing animal behavior from pose and video.
 
-**Applications**: Multimodal modeling of human and animal behavior, Computational Neuroscience
+<div class="interest-row"><span class="interest-label">Current</span>
+<span class="tag tag--current">Dexterous Manipulation</span>
+<span class="tag tag--current">Bimanual Robot Skills</span>
+<span class="tag tag--current">Learning from Human Demonstrations</span>
+<span class="tag tag--current">Sim-to-Real Transfer</span>
+</div>
+<div class="interest-row"><span class="interest-label">Previously</span>
+<span class="tag">Multi-Region Brain Communication</span>
+<span class="tag">Animal Behavior Analysis</span>
+</div>
 
 ## Publications
 
-You can also find my publications on my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AAAAJ&hl=zh-CN&oi=ao) profile.
+See also my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AAAAJ&hl=zh-CN&oi=ao) profile.
 
-<span style="color:#b6763a">**Learning Time-Varying Multi-Region Brain Communications via Scalable Markovian Gaussian Processes**</span>\
-[[Paper]](https://openreview.net/pdf?id=pOAEfqa26i) \
-**Weihan Li**, Yule Wang, Chengrui Li, Anqi Wu \
-*42th International Conference on Machine Learning* (<span style="color:#11a079">**ICML 2025**</span> <span style="color:#ee5a5a">**Oral**</span>)
+<div class="pub-list">
 
-<span style="color:#b6763a">**Exploring Behavior-Relevant and Disentangled Neural Dynamics with Generative Diffusion Models**</span>\
-[[Paper]](https://arxiv.org/abs/2410.09614)\
-Yule Wang, Chengrui Li, **Weihan Li**, Anqi Wu\
-*38th Annual Conference on Neural Information Processing Systems* (<span style="color:#11a079">**NeurIPS 2024**</span>)
+<div class="pub">
+  <div class="pub__venue">NeurIPS 2026</div>
+  <div class="pub__body">
+    <div class="pub__title">Learning When Visual Context Matters for Mouse Behavior Analysis</div>
+    <div class="pub__authors"><b>Weihan Li</b>, Jingyang Ke, Qinheng Pu, Yule Wang, Chengrui Li, Anqi Wu</div>
+  </div>
+</div>
 
-<span style="color:#b6763a">**Multi-Region Markovian Gaussian Process: An Efficient Method to Discover Directional Communications Across Multiple Brain Regions**</span>\
-[[Paper]](https://arxiv.org/abs/2402.02686) [[Code]](https://github.com/WeihanLikk/MRM-GP)\
-**Weihan Li**, Chengrui Li, Yule Wang, Anqi Wu\
-*41th International Conference on Machine Learning* (<span style="color:#11a079">**ICML 2024**</span>)
+<div class="pub">
+  <div class="pub__venue">Preprint</div>
+  <div class="pub__body">
+    <div class="pub__title">BehaviorVLM: Unified Finetuning-Free Behavioral Understanding with Vision-Language Reasoning</div>
+    <div class="pub__authors">Jingyang Ke<sup>*</sup>, <b>Weihan Li</b><sup>*</sup>, Amartya Pradhan, Jeffrey Markowitz, Anqi Wu</div>
+    <div class="pub__meta"><sup>*</sup>Equal contribution</div>
+    <div class="pub__links"><a href="https://arxiv.org/pdf/2603.12176">Paper</a></div>
+  </div>
+</div>
 
-<span style="color:#b6763a">**A Differentiable Partially Observable Generalized Linear Model with Forward-Backward Message Passing**</span>\
-[[Paper]](https://arxiv.org/abs/2402.01263) [[Code]](https://github.com/JerrySoybean/poglm)\
-Chengrui Li, **Weihan Li**, Yule Wang, Anqi Wu\
-*41th International Conference on Machine Learning* (<span style="color:#11a079">**ICML 2024**</span>)
+<div class="pub">
+  <div class="pub__venue">ICML 2026<span class="pub__award">Spotlight</span></div>
+  <div class="pub__body">
+    <div class="pub__title">A Factorized Low-Rank RNN Framework for Uncovering Independent Neural Latent Dynamics and Connectivity</div>
+    <div class="pub__authors">Chengrui Li, Yunmiao Wang, Yule Wang, <b>Weihan Li</b>, Dieter Jaeger, Anqi Wu</div>
+    <div class="pub__links"><a href="https://arxiv.org/pdf/2511.13899">Paper</a></div>
+  </div>
+</div>
 
-<span style="color:#b6763a">**Forward $\chi^2$ Divergence Based Variational Importance Sampling**</span>\
-[[Paper]](https://arxiv.org/abs/2311.02516) [[Code]](https://github.com/JerrySoybean/vis)\
-Chengrui Li, Yule Wang, **Weihan Li**, Anqi Wu\
-*12th International Conference on Learning Representations* (<span style="color:#11a079">**ICLR 2024**</span> <span style="color:#ee5a5a">**Spotlight**</span>)
+<div class="pub">
+  <div class="pub__venue">ICLR 2026</div>
+  <div class="pub__body">
+    <div class="pub__title">Uncovering Semantic Selectivity of Latent Groups in Higher Visual Cortex with Mutual Information-Guided Diffusion</div>
+    <div class="pub__authors">Yule Wang, Joseph Yu, Chengrui Li, <b>Weihan Li</b>, Anqi Wu</div>
+    <div class="pub__links"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/b7216f4a324864e1f592c18de4d83d10-Paper-Conference.pdf">Paper</a></div>
+  </div>
+</div>
 
-<span style="color:#b6763a">**Online Neural Sequence Detection with Hierarchical Dirichlet Point Process**</span>\
-[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2c3b636b64ca1dfdae3e096e4deeaa42-Abstract-Conference.html) [[Code]](https://github.com/WeihanLikk/Hierarchical-Dirichlet-Point-Process)\
-**Weihan Li**, Yu Qi, Gang Pan\
-*36th Annual Conference on Neural Information Processing Systems* (<span style="color:#11a079">**NeurIPS 2022**</span>)
+<div class="pub">
+  <div class="pub__venue">ICML 2025<span class="pub__award">Oral</span></div>
+  <div class="pub__body">
+    <div class="pub__title">Learning Time-Varying Multi-Region Brain Communications via Scalable Markovian Gaussian Processes</div>
+    <div class="pub__authors"><b>Weihan Li</b>, Yule Wang, Chengrui Li, Anqi Wu</div>
+    <div class="pub__links"><a href="https://openreview.net/pdf?id=pOAEfqa26i">Paper</a></div>
+  </div>
+</div>
 
-<span style="color:#b6763a">**Efficient Point-Process Modeling of Spiking Neurons for Neuroprosthesis**</span>\
-[[Paper]](https://ieeexplore.ieee.org/document/9630019)\
-**Weihan Li**^, CunLe Qian^, Yu Qi, Yiwen Wang, Yueming Wang, Gang Pan\
-*43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society* (<span style="color:#11a079">**EMBC 2021**</span>)\
-^These authors contributed to the work equally.
+<div class="pub">
+  <div class="pub__venue">NeurIPS 2024</div>
+  <div class="pub__body">
+    <div class="pub__title">Exploring Behavior-Relevant and Disentangled Neural Dynamics with Generative Diffusion Models</div>
+    <div class="pub__authors">Yule Wang, Chengrui Li, <b>Weihan Li</b>, Anqi Wu</div>
+    <div class="pub__links"><a href="https://arxiv.org/abs/2410.09614">Paper</a></div>
+  </div>
+</div>
 
+<div class="pub">
+  <div class="pub__venue">ICML 2024</div>
+  <div class="pub__body">
+    <div class="pub__title">Multi-Region Markovian Gaussian Process: An Efficient Method to Discover Directional Communications Across Multiple Brain Regions</div>
+    <div class="pub__authors"><b>Weihan Li</b>, Chengrui Li, Yule Wang, Anqi Wu</div>
+    <div class="pub__links"><a href="https://arxiv.org/abs/2402.02686">Paper</a><a href="https://github.com/WeihanLikk/MRM-GP">Code</a></div>
+  </div>
+</div>
 
-## Activities
+<div class="pub">
+  <div class="pub__venue">ICML 2024</div>
+  <div class="pub__body">
+    <div class="pub__title">A Differentiable Partially Observable Generalized Linear Model with Forward-Backward Message Passing</div>
+    <div class="pub__authors">Chengrui Li, <b>Weihan Li</b>, Yule Wang, Anqi Wu</div>
+    <div class="pub__links"><a href="https://arxiv.org/abs/2402.01263">Paper</a><a href="https://github.com/JerrySoybean/poglm">Code</a></div>
+  </div>
+</div>
 
-**Reviewer**: NeurIPS, ICML, ICLR.
+<div class="pub">
+  <div class="pub__venue">ICLR 2024<span class="pub__award">Spotlight</span></div>
+  <div class="pub__body">
+    <div class="pub__title">Forward χ<sup>2</sup> Divergence Based Variational Importance Sampling</div>
+    <div class="pub__authors">Chengrui Li, Yule Wang, <b>Weihan Li</b>, Anqi Wu</div>
+    <div class="pub__links"><a href="https://arxiv.org/abs/2311.02516">Paper</a><a href="https://github.com/JerrySoybean/vis">Code</a></div>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub__venue">NeurIPS 2022</div>
+  <div class="pub__body">
+    <div class="pub__title">Online Neural Sequence Detection with Hierarchical Dirichlet Point Process</div>
+    <div class="pub__authors"><b>Weihan Li</b>, Yu Qi, Gang Pan</div>
+    <div class="pub__links"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/2c3b636b64ca1dfdae3e096e4deeaa42-Abstract-Conference.html">Paper</a><a href="https://github.com/WeihanLikk/Hierarchical-Dirichlet-Point-Process">Code</a></div>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub__venue">EMBC 2021</div>
+  <div class="pub__body">
+    <div class="pub__title">Efficient Point-Process Modeling of Spiking Neurons for Neuroprosthesis</div>
+    <div class="pub__authors"><b>Weihan Li</b><sup>*</sup>, Cunle Qian<sup>*</sup>, Yu Qi, Yiwen Wang, Yueming Wang, Gang Pan</div>
+    <div class="pub__meta"><sup>*</sup>Equal contribution</div>
+    <div class="pub__links"><a href="https://ieeexplore.ieee.org/document/9630019">Paper</a></div>
+  </div>
+</div>
+
+</div>
+
+## Service
+
+**Reviewer**: NeurIPS, ICML, ICLR
