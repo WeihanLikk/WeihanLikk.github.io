@@ -57,7 +57,7 @@ See also my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AA
   <div class="pub__body">
     <div class="pub__title">A Factorized Low-Rank RNN Framework for Uncovering Independent Neural Latent Dynamics and Connectivity</div>
     <div class="pub__authors">Chengrui Li, Yunmiao Wang, Yule Wang, <b>Weihan Li</b>, Dieter Jaeger, Anqi Wu</div>
-    <div class="pub__links"><a href="https://arxiv.org/pdf/2511.13899">Paper</a></div>
+    <div class="pub__links"><a href="https://arxiv.org/pdf/2511.13899">Paper</a><a href="https://github.com/JerrySoybean/facrnn">Code</a></div>
   </div>
 </div>
 
@@ -66,7 +66,7 @@ See also my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AA
   <div class="pub__body">
     <div class="pub__title">Uncovering Semantic Selectivity of Latent Groups in Higher Visual Cortex with Mutual Information-Guided Diffusion</div>
     <div class="pub__authors">Yule Wang, Joseph Yu, Chengrui Li, <b>Weihan Li</b>, Anqi Wu</div>
-    <div class="pub__links"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/b7216f4a324864e1f592c18de4d83d10-Paper-Conference.pdf">Paper</a></div>
+    <div class="pub__links"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/file/b7216f4a324864e1f592c18de4d83d10-Paper-Conference.pdf">Paper</a><a href="https://github.com/BRAINML-GT/MIG-Vis">Code</a></div>
   </div>
 </div>
 
@@ -75,7 +75,7 @@ See also my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AA
   <div class="pub__body">
     <div class="pub__title">Learning Time-Varying Multi-Region Brain Communications via Scalable Markovian Gaussian Processes</div>
     <div class="pub__authors"><b>Weihan Li</b>, Yule Wang, Chengrui Li, Anqi Wu</div>
-    <div class="pub__links"><a href="https://openreview.net/pdf?id=pOAEfqa26i">Paper</a></div>
+    <div class="pub__links"><a href="https://openreview.net/pdf?id=pOAEfqa26i">Paper</a><a href="https://github.com/BRAINML-GT/Adaptive-Delay-Model">Code</a></div>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ See also my [Google Scholar](https://scholar.google.com/citations?user=qW4_NR4AA
   <div class="pub__body">
     <div class="pub__title">Exploring Behavior-Relevant and Disentangled Neural Dynamics with Generative Diffusion Models</div>
     <div class="pub__authors">Yule Wang, Chengrui Li, <b>Weihan Li</b>, Anqi Wu</div>
-    <div class="pub__links"><a href="https://arxiv.org/abs/2410.09614">Paper</a></div>
+    <div class="pub__links"><a href="https://arxiv.org/abs/2410.09614">Paper</a><a href="https://github.com/BRAINML-GT/BeNeDiff">Code</a></div>
   </div>
 </div>
 
