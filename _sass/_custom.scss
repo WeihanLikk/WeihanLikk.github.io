@@ -76,18 +76,23 @@ $award-color    : #e05252;
   }
 }
 
-/* Teaser figure, shown uncropped at its own aspect ratio (paper figures range
-   from single- to double-column width); tall figures are capped by max-height.
-   The link opens the full-size image in the theme's Magnific Popup. The whole
-   column is removed by the img onerror handler when the file does not exist. */
+/* Teaser figure. The link opens the full-size image in the theme's Magnific
+   Popup. The whole column is removed by the img onerror handler when the file
+   does not exist. */
 .pub__thumb {
-  flex: 0 0 280px;
+  flex: 0 0 300px;
+  width: 300px;
+  min-width: 0; /* stop the image's intrinsic width from widening the column */
   align-self: flex-start;
-  text-align: center;
 
+  /* Every figure sits in an identical 2:1 frame and is scaled to fit
+     (letterboxed, never cropped), so all cards line up the same. */
   a {
     display: block;
-    padding: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    padding: 6px;
     border: 1px solid $border-color;
     border-radius: 4px;
     background: #fff;
@@ -102,11 +107,9 @@ $award-color    : #e05252;
 
   img {
     display: block;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    max-height: 190px;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
 
@@ -179,10 +182,7 @@ $award-color    : #e05252;
   .pub__thumb {
     flex-basis: auto;
     width: 100%;
-
-    img {
-      max-height: 240px;
-    }
+    max-width: 420px;
   }
 }
 
