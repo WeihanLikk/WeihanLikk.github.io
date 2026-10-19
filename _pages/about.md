@@ -12,7 +12,7 @@ I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gate
 ## Research
 
 <div class="research-blurb" markdown="1">
-I work on **robot learning for dexterous manipulation**: teaching multi-fingered robot hands to perform bimanual manipulation skills learned from human demonstrations, in simulation and on real hardware.
+I work on **robot learning for dexterous manipulation**: teaching multi-fingered robot hands to perform bimanual manipulation skills learned from human demonstrations, in simulation and on real hardware. I have built the full pipeline, from human motion capture through retargeting to reinforcement-learning training in simulation, and run it on different dexterous robot hands. Videos are on the [Robot Demos](/demos/) page.
 </div>
 
 Before moving to robotics, I worked on modeling communication across multiple brain regions and on analyzing animal behavior from pose and video.

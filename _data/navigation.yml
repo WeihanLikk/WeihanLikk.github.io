@@ -1,8 +1,7 @@
 # main links links
 main:
-  # Robot Demos page is hidden for now; to open it, uncomment below and remove `published: false` in _pages/demos.md
-  # - title: "Robot Demos"
-  #   url: /demos/
+  - title: "Robot Demos"
+    url: /demos/
 
 #   - title: "Publications"
 #     url: /publications/
