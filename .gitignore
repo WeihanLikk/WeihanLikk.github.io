@@ -12,3 +12,5 @@ node_modules
 package-lock.json
 # CV LaTeX source (kept local, not published)
 cv.tex
+# Raw demo-video packages (contain unpublished notes)
+homepage_*.zip

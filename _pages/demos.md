@@ -5,10 +5,12 @@ author_profile: true
 ---
 
 <!--
-  Each project is one .project block. Videos live in /files/videos/.
-  Every <video> needs: autoplay muted loop playsinline (required for autoplay on phones),
-  preload="metadata", a poster image, and an aria-label describing what happens.
-  Use .project__media-wide for a full-width video and .project__media-pair for two side by side.
+  Each task is one .demo-row: a heading, then a human demo and the robot policy trained from it.
+  Videos live in /files/videos/. Every <video> needs: autoplay muted loop playsinline
+  (required for autoplay on phones), preload="metadata", a poster image, and an aria-label.
+  Set --ar (width / height) on each figure so both videos in a row get the same height.
+  If one video already shows human and robot side by side, put it in a single figure
+  and give its figcaption two spans.
 -->
 
 <div class="project">
@@ -31,29 +33,62 @@ author_profile: true
     <span class="tag">Vega humanoid arms</span>
   </div>
 
-  <figure class="project__media-wide">
-    <video autoplay muted loop playsinline preload="metadata"
-           poster="/files/videos/handover_human_vs_sharpa_poster.jpg"
-           src="/files/videos/handover_human_vs_sharpa.mp4"
-           aria-label="Left: a person lifts a wooden box, hands it from one hand to the other and puts it back. Right: a simulated robot with two Sharpa hands does the same."></video>
-    <figcaption>Human demo (left) and an RL expert with Sharpa hands in simulation (right): lift, hand over, place.</figcaption>
-  </figure>
+  <p class="demo-intro">Each task below pairs one human demonstration (left) with the robot policy learned from it (right). All robot videos are in simulation.</p>
 
-  <div class="project__media-pair">
-    <figure>
-      <video autoplay muted loop playsinline preload="metadata"
-             poster="/files/videos/wuji_lid_one_hand_poster.jpg"
-             src="/files/videos/wuji_lid_one_hand.mp4"
-             aria-label="A simulated robot opens and closes a box lid with one Wuji hand."></video>
-      <figcaption>One Wuji hand opens and closes the lid, in simulation.</figcaption>
-    </figure>
-    <figure>
-      <video autoplay muted loop playsinline preload="metadata"
-             poster="/files/videos/wuji_lid_two_hands_poster.jpg"
-             src="/files/videos/wuji_lid_two_hands.mp4"
-             aria-label="A simulated robot opens and closes a box lid with two Wuji hands."></video>
-      <figcaption>Two Wuji hands open and close the lid, in simulation.</figcaption>
-    </figure>
-  </div>
+  <section class="demo-row">
+    <h3 class="demo-row__title">Lift, hand over and place a box <span>two Sharpa hands</span></h3>
+    <div class="demo-row__media">
+      <figure style="--ar: 2.008">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="/files/videos/handover_human_vs_sharpa_poster.jpg"
+               src="/files/videos/handover_human_vs_sharpa.mp4"
+               aria-label="Left: a person lifts a wooden box, hands it from one hand to the other and puts it back. Right: a simulated robot with two Sharpa hands does the same."></video>
+        <figcaption><span>Human demo</span><span>Robot policy, in simulation</span></figcaption>
+      </figure>
+    </div>
+    <p class="demo-row__credit">Human demo: ARCTIC (Fan et al., CVPR 2023).</p>
+  </section>
+
+  <section class="demo-row">
+    <h3 class="demo-row__title">Open and close a box lid <span>one Wuji hand</span></h3>
+    <div class="demo-row__media">
+      <figure style="--ar: 0.856">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="/files/videos/human_box_open_demo_poster.jpg"
+               src="/files/videos/human_box_open_demo.mp4"
+               aria-label="A person opens the hinged lid of a wooden box on a stand and closes it again."></video>
+        <figcaption><span>Human demo</span></figcaption>
+      </figure>
+      <figure style="--ar: 1">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="/files/videos/wuji_lid_one_hand_poster.jpg"
+               src="/files/videos/wuji_lid_one_hand.mp4"
+               aria-label="A simulated robot opens and closes a box lid with one Wuji hand."></video>
+        <figcaption><span>Robot policy, in simulation</span></figcaption>
+      </figure>
+    </div>
+    <p class="demo-row__credit">Human demo: ARCTIC (Fan et al., CVPR 2023).</p>
+  </section>
+
+  <section class="demo-row">
+    <h3 class="demo-row__title">Unscrew a jar lid <span>two Wuji hands</span></h3>
+    <div class="demo-row__media">
+      <figure style="--ar: 1.767">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="/files/videos/human_unscrew_demo_poster.jpg"
+               src="/files/videos/human_unscrew_demo.mp4"
+               aria-label="First-person view: a person unscrews the lid of a large jar with both hands."></video>
+        <figcaption><span>Human demo</span></figcaption>
+      </figure>
+      <figure style="--ar: 1.778">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="/files/videos/robot_unscrew_policy_poster.jpg"
+               src="/files/videos/robot_unscrew_policy.mp4"
+               aria-label="A simulated robot with two Wuji hands reaches a jar; the left hand holds the jar while the right hand turns the lid, then both hands let go and pull back."></video>
+        <figcaption><span>Robot policy, in simulation (2× speed)</span></figcaption>
+      </figure>
+    </div>
+    <p class="demo-row__credit">Human demo: OakInk2 (Zhan et al., CVPR 2024).</p>
+  </section>
 
 </div>

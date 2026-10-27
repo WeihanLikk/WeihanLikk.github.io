@@ -268,34 +268,68 @@ $award-color    : #e05252;
   }
 }
 
-/* Videos keep their own aspect ratio (no cropping) and fill their column */
-.project__media-wide,
-.project__media-pair figure {
-  margin: 0 0 1em;
+.demo-intro {
+  margin: 0 0 1.2em;
+  font-size: $type-size-6 * 1.2;
+  color: $dark-gray;
+}
+
+/* One row per task: human demo and robot policy at the same height.
+   Each figure grows in proportion to its aspect ratio (--ar), so videos
+   keep their own shape (no cropping) and line up top and bottom. */
+.demo-row {
+  margin: 0 0 1.8em;
+}
+
+.page__content .demo-row__title {
+  margin: 0 0 0.5em;
+  padding: 0;
+  border: 0;
+  font-size: $type-size-5;
+
+  span {
+    margin-left: 0.4em;
+    font-size: $type-size-6 * 1.2;
+    font-weight: normal;
+    color: $dark-gray;
+  }
+}
+
+.demo-row__media {
+  display: flex;
+  gap: 0.75em;
+
+  figure {
+    flex: var(--ar) 1 0;
+    min-width: 0;
+    margin: 0;
+  }
 
   video {
     display: block;
     width: 100%;
     height: auto;
+    aspect-ratio: var(--ar);
     border-radius: 4px;
     background: #000;
   }
 
   figcaption {
+    display: flex;
     margin-top: 0.35em;
     font-size: $type-size-6 * 1.2;
     color: $dark-gray;
+
+    span {
+      flex: 1 1 0;
+    }
   }
 }
 
-.project__media-pair {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1em;
-
-  figure {
-    margin-bottom: 0;
-  }
+.demo-row__credit {
+  margin: 0.3em 0 0;
+  font-size: $type-size-7;
+  color: $gray;
 }
 
 @media (max-width: 600px) {
@@ -312,13 +346,14 @@ $award-color    : #e05252;
     left: 50%;
     transform: translateX(-50%);
   }
+}
 
-  .project__media-pair {
-    grid-template-columns: 1fr;
-    gap: 0;
+@media (max-width: 480px) {
+  .demo-row__media {
+    flex-direction: column;
 
     figure {
-      margin-bottom: 1em;
+      flex: none;
     }
   }
 }
