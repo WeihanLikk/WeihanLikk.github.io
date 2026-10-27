@@ -85,7 +85,7 @@ author_profile: true
                poster="/files/videos/robot_unscrew_policy_poster.jpg"
                src="/files/videos/robot_unscrew_policy.mp4"
                aria-label="A simulated robot with two Wuji hands reaches a jar; the left hand holds the jar while the right hand turns the lid, then both hands let go and pull back."></video>
-        <figcaption><span>Robot policy, in simulation (2× speed)</span></figcaption>
+        <figcaption><span>Robot policy, in simulation</span></figcaption>
       </figure>
     </div>
     <p class="demo-row__credit">Human demo: OakInk2 (Zhan et al., CVPR 2024).</p>
