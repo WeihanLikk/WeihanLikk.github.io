@@ -46,7 +46,11 @@ author_profile: true
         <figcaption><span>Human demo</span><span>Robot policy, in simulation</span></figcaption>
       </figure>
     </div>
-    <p class="demo-row__credit">Human demo: ARCTIC (Fan et al., CVPR 2023).</p>
+    <dl class="demo-row__meta">
+      <div><dt>Input</dt><dd>Human hand–object motion capture, ARCTIC (Fan et al., CVPR 2023)</dd></div>
+      <div><dt>Output</dt><dd>Residual RL policy</dd></div>
+      <div><dt>Simulator</dt><dd>Newton (MuJoCo Warp)</dd></div>
+    </dl>
   </section>
 
   <section class="demo-row">
@@ -67,7 +71,11 @@ author_profile: true
         <figcaption><span>Robot policy, in simulation</span></figcaption>
       </figure>
     </div>
-    <p class="demo-row__credit">Human demo: ARCTIC (Fan et al., CVPR 2023).</p>
+    <dl class="demo-row__meta">
+      <div><dt>Input</dt><dd>Human hand–object motion capture, ARCTIC (Fan et al., CVPR 2023)</dd></div>
+      <div><dt>Output</dt><dd>Residual RL policy</dd></div>
+      <div><dt>Simulator</dt><dd>Newton (MuJoCo Warp)</dd></div>
+    </dl>
   </section>
 
   <section class="demo-row">
@@ -88,7 +96,11 @@ author_profile: true
         <figcaption><span>Robot policy, in simulation</span></figcaption>
       </figure>
     </div>
-    <p class="demo-row__credit">Human demo: OakInk2 (Zhan et al., CVPR 2024).</p>
+    <dl class="demo-row__meta">
+      <div><dt>Input</dt><dd>Human hand–object motion capture, OakInk2 (Zhan et al., CVPR 2024)</dd></div>
+      <div><dt>Output</dt><dd>Residual RL policy</dd></div>
+      <div><dt>Simulator</dt><dd>Newton (MuJoCo Warp) in Isaac Lab</dd></div>
+    </dl>
   </section>
 
 </div>
