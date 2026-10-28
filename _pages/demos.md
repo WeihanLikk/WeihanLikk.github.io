@@ -99,7 +99,7 @@ author_profile: true
     <dl class="demo-row__meta">
       <div><dt>Input</dt><dd>Human hand–object motion capture, OakInk2 (Zhan et al., CVPR 2024)</dd></div>
       <div><dt>Output</dt><dd>Residual RL policy</dd></div>
-      <div><dt>Simulator</dt><dd>Newton (MuJoCo Warp) in Isaac Lab</dd></div>
+      <div><dt>Simulator</dt><dd>Newton (MuJoCo Warp)</dd></div>
     </dl>
   </section>
 
