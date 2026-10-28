@@ -14,3 +14,5 @@ package-lock.json
 cv.tex
 # Raw demo-video packages (contain unpublished notes)
 homepage_*.zip
+# Raw source videos dropped in the repo root
+/*.mp4
