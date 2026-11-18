@@ -7,26 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/), advised by Prof. [Anqi Wu](https://sites.google.com/view/brainml/home). Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en). My CV is available [here](https://weihanlikk.github.io/assets/cv_weihan.pdf).
+I am Weihan Li (黎维瀚), a PhD student at [Georgia Tech CSE](https://cse.gatech.edu/), advised by Prof. [Anqi Wu](https://sites.google.com/view/brainml/home). Previously, I was an undergraduate at Zhejiang University, working with Prof. [Gang Pan](https://scholar.google.com/citations?user=NWqnXNEAAAAJ&hl=en).
 
 ## Research
 
-<div class="research-blurb" markdown="1">
-I work on **robot learning for dexterous manipulation**: teaching multi-fingered robot hands to perform bimanual manipulation skills learned from human demonstrations, in simulation and on real hardware. I have built the full pipeline, from human motion capture through retargeting to reinforcement-learning training in simulation, and run it on different dexterous robot hands. Videos are on the [Robot Demos](/demos/) page.
-</div>
-
-Before moving to robotics, I worked on modeling communication across multiple brain regions and on analyzing animal behavior from pose and video.
-
-<div class="interest-row"><span class="interest-label">Current</span>
-<span class="tag tag--current">Dexterous Manipulation</span>
-<span class="tag tag--current">Bimanual Robot Skills</span>
-<span class="tag tag--current">Learning from Human Demonstrations</span>
-<span class="tag tag--current">Sim-to-Real Transfer</span>
-</div>
-<div class="interest-row"><span class="interest-label">Previously</span>
-<span class="tag">Multi-Region Brain Communication</span>
-<span class="tag">Animal Behavior Analysis</span>
-</div>
+My research spans multi-region brain communication, animal behavior analysis, and robotics.
 
 ## Publications
 

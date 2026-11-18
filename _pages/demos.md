@@ -2,6 +2,8 @@
 permalink: /demos/
 title: "Robot Demos"
 author_profile: true
+robots: noindex
+sitemap: false
 ---
 
 <!--
